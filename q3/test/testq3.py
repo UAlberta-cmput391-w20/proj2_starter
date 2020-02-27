@@ -8,7 +8,7 @@ import subprocess
 print "testing Q3"
 
 K = 20
-l = 10
+l = 50
 
 output=subprocess.check_output(["./bin/solution.out", "./test/testq3.db", str(l), str(K)])
 lines = output.strip().split('\n')
